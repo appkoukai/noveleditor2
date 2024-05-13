@@ -2,6 +2,8 @@ import streamlit as st
 import openai
 from sklearn.feature_extraction.text import TfidfVectorizer
 from janome.tokenizer import Tokenizer
+import pandas as pd
+
 
 # OpenAI APIキーを設定
 openai.api_key = st.secrets["API_key"]
