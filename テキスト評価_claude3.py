@@ -2,7 +2,6 @@ import streamlit as st
 import anthropic
 from sklearn.feature_extraction.text import TfidfVectorizer
 from janome.tokenizer import Tokenizer
-import pandas as pd
 
 
 client = anthropic.Anthropic(
